@@ -1,0 +1,14 @@
+MLSeq is a BIOCONDUCTOR package, which provides several algorithms including support vector machines (SVM), bagging support vector machines (bagSVM), random forest (RF) and classification and regression trees (CART) to classify sequencing data. To achieve this, MLSeq package requires a count table, which contains the number of reads mapped to each transcript for each sample. This kind of count data can be obtained from RNA-Seq experiments, also from other sequencing experiments such as DNA or ChIP-sequencing.
+
+To install the MLSeq package, following codes should be pasted to R program:
+
+   	source("http://bioconductor.org/biocLite.R")
+    	biocLite("MLSeq")
+
+If you use MLSeq package, please cite it as below:
+
+    	citation("MLSeq")
+
+Please contact us, if you have any questions or suggestions:
+
+	gokmenzararsiz@hotmail.com
